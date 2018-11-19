@@ -20,6 +20,7 @@ public class Process {
 		}		
 	}
 	
+	@SuppressWarnings("resource")
 	public void B() throws InterruptedException{
 		Scanner scanner = new Scanner(System.in);
 		Thread.sleep(2000);
